@@ -47,19 +47,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+it shows my team's github usernames compared to their favourite number, with the bar for each member coloured in their favourite colour.
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "github_username", 
+          y = "favourite_number",
+          title = "graph showing favourite number against github username including each member's favourite colour")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+it enables you to change labels on the graphs.
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+if everyone had different hobbies the xaxis would simply be a list of everyone's hobbies. a better way to show the information would be 
